@@ -1,0 +1,26 @@
+ {
+  "application_id": "34e55eb9-423a-40ed-9a49-98fc463b8a26",
+  "application_name": "qvsample",
+  "application_uris": [
+   "dank-qvsample.mybluemix.net"
+  ],
+  "application_version": "e9b0d3fe-5207-4e5c-91ab-49cdfe6da260",
+  "cf_api": "https://api.us-south.cf.cloud.ibm.com",
+  "limits": {
+   "disk": 1024,
+   "fds": 16384,
+   "mem": 128
+  },
+  "name": "qvsample",
+  "organization_id": "865bc0cd-8326-434c-a4a8-0b354a8d02ee",
+  "organization_name": "dandkitay@gmail.com",
+  "process_id": "34e55eb9-423a-40ed-9a49-98fc463b8a26",
+  "process_type": "web",
+  "space_id": "e1e3e772-28c8-498d-975e-0483ded40197",
+  "space_name": "dev",
+  "uris": [
+   "dank-qvsample.mybluemix.net"
+  ],
+  "users": null,
+  "version": "e9b0d3fe-5207-4e5c-91ab-49cdfe6da260"
+ }

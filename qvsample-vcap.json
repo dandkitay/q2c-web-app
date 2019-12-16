@@ -1,0 +1,126 @@
+Getting env variables for app qvsample in org dandkitay@gmail.com / space dev as dandkitay@gmail.com...
+OK
+
+System-Provided:
+{
+ "VCAP_SERVICES": {
+  "AvailabilityMonitoring": [
+   {
+    "binding_name": null,
+    "credentials": {
+     "cred_url": "https://broker.us-south.availabilitymonitoring.cloud.ibm.com",
+     "token": "/vVLlpZILwqoN8aeHLiuGwWwi5HxtECSJymXmkNzJ5CvQbKp7hcNQ7zckgi8SGZnAdWM76yXouH29ssJ1Kg2Zv9D8Y7QKdsr29lprUG89vg="
+    },
+    "instance_name": "availability-monitoring-auto",
+    "label": "AvailabilityMonitoring",
+    "name": "availability-monitoring-auto",
+    "plan": "Lite",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "ibm_created",
+     "bluemix_extensions",
+     "dev_ops",
+     "lite"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "cloudantNoSQLDB": [
+   {
+    "binding_name": null,
+    "credentials": {
+     "apikey": "e9txZlY95Hw1Y_sIGRN-gRljiEts_vUkkGd7k3ESH5tU",
+     "host": "9d8964bc-a4e5-4bfb-93e9-250d191acffc-bluemix.cloudantnosqldb.appdomain.cloud",
+     "iam_apikey_description": "Auto generated apikey during resource-binding operation for Instance - crn:v1:bluemix:public:cloudantnosqldb:us-south:a/f1d29853a6724e0d97355e30ad00e242:39acb0e7-c0e8-48a5-9213-71e04defc3f1::",
+     "iam_apikey_name": "auto-generated-apikey-44dd3254-7d51-4965-8e51-e7bdfaa3d318",
+     "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+     "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/f1d29853a6724e0d97355e30ad00e242::serviceid:ServiceId-d4be9658-8b66-47ad-be31-2a070880ff15",
+     "password": "07ecb66767b3fbe39885fb94c374ac508dc9a776e87907f0e726ef2b5d2f4501",
+     "port": 443,
+     "url": "https://9d8964bc-a4e5-4bfb-93e9-250d191acffc-bluemix:07ecb66767b3fbe39885fb94c374ac508dc9a776e87907f0e726ef2b5d2f4501@9d8964bc-a4e5-4bfb-93e9-250d191acffc-bluemix.cloudantnosqldb.appdomain.cloud",
+     "username": "9d8964bc-a4e5-4bfb-93e9-250d191acffc-bluemix"
+    },
+    "instance_name": "dkitay-qvDB",
+    "label": "cloudantNoSQLDB",
+    "name": "dkitay-qvDB",
+    "plan": "Lite",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "data_management",
+     "ibm_created",
+     "lite",
+     "ibm_dedicated_public",
+     "ibmcloud-alias"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "language_translator": [
+   {
+    "binding_name": null,
+    "credentials": {
+     "apikey": "XeFw8PVImyEGoybX5tlVMswSBv1wyXXvxBClB_fIzwog",
+     "iam_apikey_description": "Auto generated apikey during resource-binding operation for Instance - crn:v1:bluemix:public:language-translator:us-south:a/f1d29853a6724e0d97355e30ad00e242:161388ad-42cc-4c63-bf6c-ee809e550dda::",
+     "iam_apikey_name": "auto-generated-apikey-f7b8e022-a5db-4de8-8cfe-a9831543e8b7",
+     "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+     "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/f1d29853a6724e0d97355e30ad00e242::serviceid:ServiceId-b039afe8-12e9-4c7d-9923-d1dcdffa997d",
+     "url": "https://api.us-south.language-translator.watson.cloud.ibm.com/instances/161388ad-42cc-4c63-bf6c-ee809e550dda"
+    },
+    "instance_name": "dkitay-language-service",
+    "label": "language_translator",
+    "name": "dkitay-language-service",
+    "plan": "lite",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "ibm_created",
+     "ibm_dedicated_public",
+     "lite",
+     "watson",
+     "ibmcloud-alias"
+    ],
+    "volume_mounts": []
+   }
+  ]
+ }
+}
+
+{
+ "VCAP_APPLICATION": {
+  "application_id": "34e55eb9-423a-40ed-9a49-98fc463b8a26",
+  "application_name": "qvsample",
+  "application_uris": [
+   "dank-qvsample.mybluemix.net"
+  ],
+  "application_version": "e9b0d3fe-5207-4e5c-91ab-49cdfe6da260",
+  "cf_api": "https://api.us-south.cf.cloud.ibm.com",
+  "limits": {
+   "disk": 1024,
+   "fds": 16384,
+   "mem": 128
+  },
+  "name": "qvsample",
+  "organization_id": "865bc0cd-8326-434c-a4a8-0b354a8d02ee",
+  "organization_name": "dandkitay@gmail.com",
+  "process_id": "34e55eb9-423a-40ed-9a49-98fc463b8a26",
+  "process_type": "web",
+  "space_id": "e1e3e772-28c8-498d-975e-0483ded40197",
+  "space_name": "dev",
+  "uris": [
+   "dank-qvsample.mybluemix.net"
+  ],
+  "users": null,
+  "version": "e9b0d3fe-5207-4e5c-91ab-49cdfe6da260"
+ }
+}
+
+No user-defined env variables have been set
+
+Running Environment Variable Groups:
+BLUEMIX_REGION: ibm:yp:us-south
+
+Staging Environment Variable Groups:
+BLUEMIX_REGION: ibm:yp:us-south
+

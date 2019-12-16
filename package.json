@@ -1,0 +1,21 @@
+{
+  "name": "qvsample",
+  "version": "0.0.0",
+  "dependencies": {
+    "cf-deployment-tracker-client": "*",
+    "cfenv": "^1.2.2",
+    "cloudant": "^1.10.0-NOTICE",
+    "commander": "^2.6.0",
+    "express": "^4.14.1",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.8.1"
+  },
+  "main": "qvsample.js",
+  "scripts": {
+    "start": "node qvsample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Bluemix/bluemix-hello-node.git"
+  }
+}
